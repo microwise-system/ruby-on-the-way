@@ -1,5 +1,6 @@
 require 'minitest/autorun'
 require_relative 'math_util'
+require_relative 'string_util'
 
 class MathUtilTest < MiniTest::Unit::TestCase
 
@@ -27,4 +28,20 @@ class MathUtilTest < MiniTest::Unit::TestCase
     assert_equal result, [2, 4, 6, 8]
   end
 
+end
+
+class StringUtilTest < MiniTest::Unit::TestCase
+  def setup
+    @string = StringUtil.new
+  end
+
+  def test_say_hello
+    result = @string.say_hello('basten')
+    assert_equal result, 'hello, basten'
+  end
+
+  def test_join
+    result = @string.join(['I ', ' am', ' awesome'])
+    assert_equal result, 'I am awesome'
+  end
 end
