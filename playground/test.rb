@@ -1,8 +1,9 @@
 require 'minitest/autorun'
 require_relative 'math_util'
 require_relative 'string_util'
+require_relative 'hash_util'
 
-class MathUtilTest < MiniTest::Unit::TestCase
+class MathUtilTest < MiniTest::Test
 
   def setup
     @math = MathUtil.new
@@ -30,7 +31,7 @@ class MathUtilTest < MiniTest::Unit::TestCase
 
 end
 
-class StringUtilTest < MiniTest::Unit::TestCase
+class StringUtilTest < MiniTest::Test
   def setup
     @string = StringUtil.new
   end
@@ -46,7 +47,7 @@ class StringUtilTest < MiniTest::Unit::TestCase
   end
 end
 
-class HashUtilTest < MiniTest::Unit::TestCase
+class HashUtilTest < MiniTest::Test
   def setup
     @hash = HashUtil.new
   end
@@ -55,7 +56,7 @@ class HashUtilTest < MiniTest::Unit::TestCase
     result = @hash.key_of_max({'foo'=> 1234, 'bar'=> 4567, 'max_key' => 9999})
     assert_equal result, 'max_key'
   end
-  
+
   def test_to_hash
     key_array = ['string', :symbol, 456]
     value_array = [1, 'abc', 654]

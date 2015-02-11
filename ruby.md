@@ -18,3 +18,7 @@ ruby 学习资料 https://ruby-china.org/wiki/books
 * rake
 * sinatra
 * rails
+
+### 作业
+
+学完 ruby 后，可以做 [playground](playground) 下的练习题
