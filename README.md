@@ -1,6 +1,8 @@
 # ruby-on-the-way
 
-* git
-* linux
-* ubuntu
 * [ruby](ruby.md)
+
+ruby 开发必备技能
+
+* git
+* [linux(推荐 ubuntu)](linux.md)

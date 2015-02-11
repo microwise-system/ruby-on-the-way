@@ -10,3 +10,11 @@
 ### 学习
 
 ruby 学习资料 https://ruby-china.org/wiki/books
+
+### 相关技术
+
+* gem
+* bundler
+* rake
+* sinatra
+* rails
