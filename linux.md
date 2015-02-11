@@ -2,6 +2,12 @@
 
 * cd
 * ls
+* rm
+* cp
+* mv
+* cat
+* less
+* tail
 * su
 * sudo
 * ps
