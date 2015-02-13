@@ -4,7 +4,8 @@
 
 ### 安装
 
-* windows 推荐使用 [RubyInstaller] http://rubyinstaller.org/), 建议使用 linux/osx 开发
+* windows 推荐使用 [RubyInstaller] http://rubyinstaller.org/),
+  建议使用 linux/osx 开发, 可以使用 [vagrant](vagrant) 跑ubuntu
 * linux/osx 推荐使用 rvm, [使用参考](https://ruby-china.org/wiki/rvm-guide)
 
 ### 学习
