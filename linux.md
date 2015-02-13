@@ -1,3 +1,6 @@
+如果是 windows, 可以使用 [vagrant](vagrant.md) 跑ubuntu
+
+
 ### 常用命令
 
 * cd
