@@ -3,7 +3,7 @@ require_relative 'math_util'
 require_relative 'string_util'
 require_relative 'hash_util'
 
-class MathUtilTest < MiniTest::Test
+class MathUtilTest < MiniTest::Unit::TestCase
 
   def setup
     @math = MathUtil.new
@@ -31,7 +31,7 @@ class MathUtilTest < MiniTest::Test
 
 end
 
-class StringUtilTest < MiniTest::Test
+class StringUtilTest < MiniTest::Unit::TestCase
   def setup
     @string = StringUtil.new
   end
@@ -47,7 +47,7 @@ class StringUtilTest < MiniTest::Test
   end
 end
 
-class HashUtilTest < MiniTest::Test
+class HashUtilTest < MiniTest::Unit::TestCase
   def setup
     @hash = HashUtil.new
   end
