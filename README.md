@@ -1,6 +1,7 @@
 # ruby-on-the-way
 
 * [ruby](ruby.md)
+* [rails](rails.md)
 
 ruby 开发必备技能
 
