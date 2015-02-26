@@ -1,6 +1,6 @@
 ### 说在前面
 
-做 ruby 开发强烈建议使用 linux/osx
+_做 ruby 开发强烈建议使用 linux/osx_
 
 ### 安装
 
