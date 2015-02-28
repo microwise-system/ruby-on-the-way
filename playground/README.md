@@ -1,3 +1,13 @@
 完成实现前，先 fork 到自己的库中, pull 下来后, 然后编写测试, 提交到自己的库中.
 
 test.rb 中列出了一些测试项, 每实现一个方法，通过  `ruby test.rb` 测试自己的实现是否正确.
+
+如何同步源项目的修改？
+
+```
+# 添加 remote 源
+git remote add microwise git@github.com:microwise-system/ruby-on-the-way.git
+
+# 同步源项目修改
+git pull microwise master
+```
