@@ -42,7 +42,7 @@ class StringUtilTest < MiniTest::Unit::TestCase
   end
 
   def test_join
-    result = @string.join(['I ', ' am', ' awesome'])
+    result = @string.join(['I', 'am', 'awesome'])
     assert_equal result, 'I am awesome'
   end
 end
