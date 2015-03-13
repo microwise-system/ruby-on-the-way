@@ -30,6 +30,11 @@ vagrant ssh
 vagrant halt
 ```
 
+### 启动如果遇到可以尝试一下方法
+
+* virtualbox 降版本
+* 换 32 位 box
+
 ###  镜像分享下载
 
 * [ubuntu-14.04](http://pan.baidu.com/s/1c0q591Q)(virtualbox 64bit)
